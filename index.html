@@ -29,7 +29,7 @@
 
 <body>
     <header class="container mx-auto">
-        <nav class="py-5">
+        <nav class="py-5 pl-0 px-5 ">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -59,6 +59,43 @@
                 </div>
               </div>
         </nav>
+
+        <div class="relative mx-5">
+            <div class="carousel rounded-xl w-full h-fit">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex bottom-5 transform md:transform-none -translate-x-1/2 left-1/2 md:left-20 gap-5 md:bottom-10 ">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                      </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-black my-6 lg:my-0 lg:w-1/2 py-5 px-4 text-white rounded-lg lg:absolute right-20 bottom-20">
+                <h1 class="text-2xl font-bold">Meet all the heroes from the field</h1>
+                <p class="text-gray-500">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+        </div>
     </header>
 
     <main class="mx-5">
